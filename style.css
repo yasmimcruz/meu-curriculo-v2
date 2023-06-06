@@ -1,4 +1,17 @@
+body{
+  background-color: black;
+  color: rgb(131, 19, 107);
+  cursor: url(img/jojo-removebg-preview.png), auto;
+  font-family: 'Megrim', cursive;
+}
+
 h1{
-  text-align: center;
-font-family: 'Homemade Apple', cursive;
+text-align: center;
+font-size: 35px;
+background-color: rgb(252, 218, 255);
+}
+
+.row{
+  background-color: rgb(252, 218, 255); 
+  border: 5px solid rgb(131, 19, 107);
 }
