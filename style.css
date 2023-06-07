@@ -1,17 +1,63 @@
 body{
   background-color: black;
-  color: rgb(131, 19, 107);
+  color: rgb(187, 27, 75);
   cursor: url(img/jojo-removebg-preview.png), auto;
   font-family: 'Megrim', cursive;
 }
 
+body ::selection {
+  background-color: rgb(187, 27, 75);
+  color:rgb(253, 220, 233); 
+} 
+
 h1{
 text-align: center;
 font-size: 35px;
-background-color: rgb(252, 218, 255);
+background-color: rgb(253, 220, 233); 
 }
 
 .row{
-  background-color: rgb(252, 218, 255); 
-  border: 5px solid rgb(131, 19, 107);
+  background-color: rgb(253, 220, 233); 
+  border: 5px solid rgb(187, 27, 75);
+}
+
+#eu{
+  border: 2px solid rgb(187, 27, 75);
+}
+
+#Formação{
+  border: 2px solid rgb(187, 27, 75);
+}
+
+#Habilidades{
+  border: 2px solid rgb(187, 27, 75);
+}
+
+#Interesses{
+  border: 2px solid rgb(187, 27, 75);
+}
+
+h1{
+  text-align: center;
+}
+
+.nav-item{
+  margin-right: 330px;
+}
+
+a{
+  color: rgb(187, 27, 75);
+}
+
+.menu{
+  padding: 10px;
+}
+
+img{
+  width: 92px;
+  height: 140px;
+  float: left;
+  margin-top: -88px;
+  margin-left: -1px;
+  margin-bottom: 20px;
 }
