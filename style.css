@@ -1,40 +1,40 @@
 body{
   background-color: black;
-  color: rgb(187, 27, 75);
+  color: rgb(207, 121, 207);
   cursor: url(img/jojo-removebg-preview.png), auto;
   font-family: 'Megrim', cursive;
 }
 
 body ::selection {
-  background-color: rgb(187, 27, 75);
-  color:rgb(253, 220, 233); 
+  background-color: rgb(207, 121, 207);
+  color:rgb(253, 245, 255); 
 } 
 
 h1{
 text-align: center;
 font-size: 35px;
-background-color: rgb(253, 220, 233); 
+background-color: rgb(253, 245, 255); 
 }
 
 .row{
-  background-color: rgb(253, 220, 233); 
-  border: 5px solid rgb(187, 27, 75);
+  background-color: rgb(253, 245, 255); 
+  border: 5px solid rgb(207, 121, 207);
 }
 
 #eu{
-  border: 2px solid rgb(187, 27, 75);
+  border: 2px solid rgb(207, 121, 207);
 }
 
 #Formação{
-  border: 2px solid rgb(187, 27, 75);
+  border: 2px solid rgb(207, 121, 207);
 }
 
 #Habilidades{
-  border: 2px solid rgb(187, 27, 75);
+  border: 2px solid rgb(207, 121, 207);
 }
 
 #Interesses{
-  border: 2px solid rgb(187, 27, 75);
+  border: 2px solid rgb(207, 121, 207);
 }
 
 h1{
@@ -46,11 +46,12 @@ h1{
 }
 
 a{
-  color: rgb(187, 27, 75);
+  color: rgb(207, 121, 207);
 }
 
 .menu{
   padding: 10px;
+  text-align: center;
 }
 
 img{
@@ -60,4 +61,9 @@ img{
   margin-top: -88px;
   margin-left: -1px;
   margin-bottom: 20px;
+}
+
+.Rodapé{
+  padding: 2px;
+  text-align: center;
 }
